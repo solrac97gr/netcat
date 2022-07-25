@@ -15,7 +15,7 @@ var (
 )
 
 func init() {
-	host = flag.String("h", "http://localhost", "hostname")
+	host = flag.String("h", "localhost", "hostname")
 	port = flag.Int("p", 3090, "port")
 }
 
